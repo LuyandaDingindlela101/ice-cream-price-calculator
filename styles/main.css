@@ -1,0 +1,65 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     width: 100%;
+     display: flex;
+     min-height: 100vh;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Lato', sans-serif;
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+     background-size: 400% 400%;
+     animation: background_gradient 20s ease infinite;
+}
+
+.ice-cream-form {
+     padding:20px;
+     color: #ffffff;
+     border-radius: 5px;
+     backdrop-filter: blur(4px);
+     background: rgba( 255, 255, 255, 0.25 );
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.ice-cream-form h1 {
+     font-weight: 700;
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+.ice-cream-form label {
+}
+
+.ice-cream-form label span {
+     display: block;
+     margin-bottom: 5px;
+}
+
+.ice-cream-form label input {
+     width: 100%;
+     padding: 5px;
+     outline: none;
+     display: block;
+     color: #ffffff;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     background: transparent ;
+     border: 1px solid #ffffff;
+}
+
+.ice-cream-form button {
+     width: 100%;
+     border: none;
+     font-weight: 700;
+     color: #23a6d5;
+     padding: 15px 20px;
+     border-radius: 3px;
+     letter-spacing: 2px;
+     background: #ffffff;
+     text-transform: uppercase;
+}
