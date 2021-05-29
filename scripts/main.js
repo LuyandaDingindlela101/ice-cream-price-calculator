@@ -21,8 +21,10 @@ function submit_form() {
           ice_cream_cost = parseFloat(ice_cream_cost);
           ice_cream_amount = parseInt(ice_cream_amount);
 
+          //   SHOW THE USER THE PRICE OF THEIR REQUEST
           alert(`${ice_cream_amount} ice cream cone(s) cost R${parseFloat(ice_cream_amount * ice_cream_cost)}`);
      } else {
+          //   IF THE ENTRIES ARE EMPTY, THEN INFORM THE USER
           alert("Inputs are empty")
      }
 }
